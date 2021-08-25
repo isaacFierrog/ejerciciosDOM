@@ -81,6 +81,9 @@ a{
 .seccion{
     min-height: 100vh;
 }
+.seccion__instruction{
+    padding: 2rem;
+}
 .seccion__title{
     padding: 1rem;
 }
@@ -88,4 +91,21 @@ a{
 /*Estilos RELOJ*/
 .reloj__display{
     padding: 2rem;
+}
+
+/*Estilos TECLADO*/
+.campo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 50rem;
+    margin: 0 auto;
+    background-color: #444;
+}
+.pelota{
+    width: 8rem;
+    height: 8rem;
+    background-color: #FFB830;
+    border-radius: 50%;
 }
