@@ -109,3 +109,8 @@ a{
     background-color: #FFB830;
     border-radius: 50%;
 }
+
+/*Estilos CONTADOR*/
+.contador{
+    padding: 2rem;
+}
