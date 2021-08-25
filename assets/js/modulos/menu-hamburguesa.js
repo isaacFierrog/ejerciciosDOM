@@ -9,5 +9,10 @@ export default function menuHamburguesa(selecBoton, selecPanel){
             $panel.classList.toggle("panel--oculto");
             $boton.classList.toggle("is-active");
         }
+
+        if(e.target.matches(".menu__item")){
+            $panel.classList.toggle("panel--oculto");
+            $boton.classList.toggle("is-active");
+        }
     });
 }
