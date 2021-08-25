@@ -8,10 +8,14 @@ const d = document;
 
 
 d.addEventListener("DOMContentLoaded", e => {
+<<<<<<< HEAD
     menuHamburguesa(".boton", ".panel");
     relojAlarma(".reloj__display", ".reloj__boton");
     moverPelota(".campo", ".pelota");
     atajosTeclado();
     contador(".contador__display");
     volverAlInicio(".boton--scroll");
+=======
+    menuHamburguesa(".hamburger", ".panel");
+>>>>>>> menu-hamburguesa
 });
