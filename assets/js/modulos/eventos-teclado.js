@@ -13,14 +13,12 @@ export function moverPelota(selecCampo, selecPelota){
         switch(e.key){
             case "ArrowUp": 
                 if(posicionPelota.top > posicionCampo.top){
-                    console.log("Flecha arriba");
                     posY--;
                     e.preventDefault();
                 }
                 break;
             case "ArrowDown": 
                 if(posicionPelota.bottom < posicionCampo.bottom){
-                    console.log("Flecha abajo");
                     posY++;
                     e.preventDefault();
                 }
@@ -43,7 +41,6 @@ export function moverPelota(selecCampo, selecPelota){
 
 export function atajosTeclado(){
     d.addEventListener("keypress", e => {
-        console.log(e);
         if(e.shiftKey && e.key === "C"){
             alert("Hola como estas usuarios :P");
         }
