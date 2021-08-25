@@ -18,6 +18,9 @@ a{
     text-decoration: none;
     color: black;
 }
+h1{
+    color: black;
+}
 
 /*Estilos HEADER*/
 .header{
@@ -73,14 +76,14 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
     border-radius: 50%;
     background-color: #FFB830;
+    cursor: pointer;
 }
 .boton--scroll{
     right: calc(9rem + 2vw);
     font-size: 3rem;
-    border: none;
-    cursor: pointer;
     transition: all .3s ease-in-out;
 }
 .boton--scroll:hover{
@@ -89,6 +92,14 @@ a{
 .boton--oculto{
     opacity: 0;
     visibility: hidden;
+}
+.boton--modo{
+    left: 2vw;
+    font-size: 3rem;
+    transition: all .3s ease-in-out;
+}
+.boton--modo:hover{
+    background-color: black;
 }
 
 /*Estilos Main*/
@@ -127,4 +138,10 @@ a{
 /*Estilos CONTADOR*/
 .contador{
     padding: 2rem;
+}
+
+/*Estilos MODO OSCURO*/
+.oscuro{
+    background-color: #222;
+    color: #FFB830;
 }
