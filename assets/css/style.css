@@ -76,6 +76,20 @@ a{
     border-radius: 50%;
     background-color: #FFB830;
 }
+.boton--scroll{
+    right: 12vw;
+    font-size: 3rem;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.boton--scroll:hover{
+    opacity: .6;
+}
+.boton--oculto{
+    opacity: 0;
+    visibility: hidden;
+}
 
 /*Estilos Main*/
 .seccion{
