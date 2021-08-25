@@ -84,3 +84,8 @@ a{
 .seccion__title{
     padding: 1rem;
 }
+
+/*Estilos RELOJ*/
+.reloj__display{
+    padding: 2rem;
+}

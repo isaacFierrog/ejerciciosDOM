@@ -16,7 +16,7 @@
     </header>
     <section class="panel panel--oculto">
         <nav class="menu">
-            <a class="menu__item" href="#seccion1">Seccion 1</a>
+            <a class="menu__item" href="#seccion1">Reloj digital y Alarma</a>
             <a class="menu__item" href="#seccion2">Seccion 2</a>
             <a class="menu__item" href="#seccion3">Seccion 3</a>
             <a class="menu__item" href="#seccion4">Seccion 4</a>
@@ -25,7 +25,17 @@
     </section>
     <main>
         <section id="seccion1" class="seccion">
-            <h2 class="seccion__title">Seccion 1</h2>
+            <h2 class="seccion__title">Reloj digital y Alarma</h2>
+            <article class="reloj">
+                <h3 class="reloj__display"></h3>
+                <audio class="reloj__alarma" src="./assets/audio/audio.mp3"></audio>
+                <div class="reloj__botones">
+                    <button data-boton="irel" class="reloj__boton" >Iniciar reloj</button>
+                    <button data-boton="drel" class="reloj__boton" >Detener reloj</button>
+                    <button data-boton="iala" class="reloj__boton" >Iniciar alarma</button>
+                    <button data-boton="dala" class="reloj__boton" >Detener alarma</button>
+                </div>
+            </article>
         </section>
         <section id="seccion2" class="seccion">
             <h2 class="seccion__title">Seccion 2</h2>
