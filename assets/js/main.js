@@ -8,6 +8,7 @@ import responsiveMedia from "./modulos/responsive.js";
 import responsiveTester from "./modulos/responsive-tester.js";
 import deteccionDispositivos from "./modulos/deteccion-dispositivos.js";
 import detectarConexion from "./modulos/conexion-red.js";
+import webCam from "./modulos/camara-web.js";
 
 const d = document;
 
@@ -23,6 +24,7 @@ d.addEventListener("DOMContentLoaded", e => {
     responsiveTester(".form__cerrar");
     deteccionDispositivos();
     detectarConexion();
+    webCam("webcam");
 });
 
 modoOscuro(".boton--modo", "[data-mode]");
