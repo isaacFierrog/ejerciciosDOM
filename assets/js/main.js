@@ -10,6 +10,7 @@ import deteccionDispositivos from "./modulos/deteccion-dispositivos.js";
 import detectarConexion from "./modulos/conexion-red.js";
 import webCam from "./modulos/camara-web.js";
 import obtenerLocalizacion from "./modulos/geolocalizacion.js";
+import filtrarElementos from "./modulos/filtro.js";
 
 const d = document;
 
@@ -27,6 +28,7 @@ d.addEventListener("DOMContentLoaded", e => {
     detectarConexion();
     webCam("webcam");
     obtenerLocalizacion("geolocation");
+    filtrarElementos(".lista__item", ".filtro");
 });
 
 modoOscuro(".boton--modo", "[data-mode]");

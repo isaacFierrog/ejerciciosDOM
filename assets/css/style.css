@@ -24,6 +24,13 @@ h1{
 .seccion{
     scroll-margin-top: 6ex;
 }
+ol,ul{
+    list-style: none;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+}
 
 /*Estilos HEADER*/
 .header{
@@ -172,4 +179,26 @@ h1{
 }
 .aviso--oculto{
     opacity: 0;
+}
+
+/*Estilos LISTA*/
+.lista{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 2rem;
+}
+.lista__item{
+    background-color: #222;
+    transition: all .2s ease-in-out;
+}
+.lista__descrip{
+    padding: 2rem;
+    color: #FFB830;
+}
+.lista__item--oculto{
+    order: 1;
+    opacity: 0;
+    visibility: hidden;
 }
