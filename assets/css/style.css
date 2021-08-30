@@ -21,9 +21,14 @@ a{
 h1{
     color: black;
 }
+.seccion{
+    scroll-margin-top: 6ex;
+}
 
 /*Estilos HEADER*/
 .header{
+    position: sticky;
+    top: 0;
     background-color: #FFB830;
 }
 .header__title{
@@ -144,4 +149,27 @@ h1{
 .oscuro{
     background-color: #222;
     color: #FFB830;
+}
+
+/*Estilos AVISO*/
+.aviso{
+    position: fixed;
+    bottom: 0;
+    min-width: 100vw;
+    user-select: none;
+    opacity: .7;
+    transition: all .3s ease-in-out;
+}
+.aviso__mensaje{
+    padding: 1rem;
+    color: white;
+}
+.aviso--online{
+    background-color: rgb(19, 173, 19);
+}
+.aviso--offline{
+    background-color: rgb(177, 23, 23);
+}
+.aviso--oculto{
+    opacity: 0;
 }
