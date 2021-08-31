@@ -11,6 +11,7 @@ import detectarConexion from "./modulos/conexion-red.js";
 import webCam from "./modulos/camara-web.js";
 import obtenerLocalizacion from "./modulos/geolocalizacion.js";
 import filtrarElementos from "./modulos/filtro.js";
+import obtenerGanador from "./modulos/sorteo.js";
 
 const d = document;
 
@@ -29,6 +30,7 @@ d.addEventListener("DOMContentLoaded", e => {
     webCam("webcam");
     obtenerLocalizacion("geolocation");
     filtrarElementos(".lista__item", ".filtro");
+    obtenerGanador(".lista-sorteo", ".boton-ganador");
 });
 
 modoOscuro(".boton--modo", "[data-mode]");
